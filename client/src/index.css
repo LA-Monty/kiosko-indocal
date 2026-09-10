@@ -1,0 +1,43 @@
+:root {
+  --azul-oscuro: #0f1b3d;
+  --azul: #1e3a8a;
+  --texto: #1a1a2e;
+  --texto-suave: #5b5f76;
+  --fondo: #f4f6fb;
+  --tarjeta: #ffffff;
+  --borde: #dde2ee;
+  --peligro: #b91c1c;
+  --exito: #15803d;
+
+  font: 16px/1.5 system-ui, 'Segoe UI', Roboto, sans-serif;
+  color: var(--texto);
+  background: var(--fondo);
+  color-scheme: light;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  color: var(--azul-oscuro);
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+a {
+  color: var(--azul);
+}
